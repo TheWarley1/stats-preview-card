@@ -16,15 +16,16 @@ body{
     justify-content: cente;
     border-radius: 10px;
     
+    
 }
 
 .main-text{
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
-    width: 540px;
+    padding: 80px;
+    /* justify-content: center;
+    align-items: center; */
+    
 }
 
 h1{
@@ -36,13 +37,13 @@ h1{
 .sub-text{
     display: flex;
     
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     margin-top: 25px;
-    padding-left: 20px;
+    padding-left: 0px;
 
 }
 
