@@ -1,0 +1,96 @@
+*{ margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    padding: 20%;
+    display: flex;
+}
+
+.card{
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    align-items: cente;
+    justify-content: cente;
+    border-radius: 10px;
+    
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+}
+
+.sub-text{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+    padding-left: 20px;
+
+}
+
+.stats{
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top: 65px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+}
+
+.image{
+    display: flex; 
+    position: relative;
+}
+
+.image::after{
+content: " ";
+height: 100%;
+width: 100%;
+background-color: purple;
+opacity: .6;
+position: absolute;
+}
+
+img{
+    border-radius: 0 10px 10px 0px;
+    
+   
+   
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.stats span{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+}
+
+.stats p{
+    padding-right: 30px;
+    color:  hsl(0, 0%, 100%);
+}
